@@ -54,7 +54,7 @@
 		91FFEE7C29B2838000B4DE2A /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFEE7B29B2838000B4DE2A /* OpenAI.swift */; };
 		91FFEE7F29B2854200B4DE2A /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFEE7E29B2854200B4DE2A /* NetworkRequest.swift */; };
 		91FFEE8329B288F000B4DE2A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFEE8229B288F000B4DE2A /* Constants.swift */; };
-		D8E6234C29CB93690072A861 /* openai.environment in Resources */ = {isa = PBXBuildFile; fileRef = D8E6234B29CB93690072A861 /* openai.environment */; };
+		B33CB43529EC039E0049A337 /* openai.environment in Resources */ = {isa = PBXBuildFile; fileRef = B33CB43429EC039E0049A337 /* openai.environment */; };
 		D8E6234F29CBA0530072A861 /* CommentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6234E29CBA0530072A861 /* CommentRepository.swift */; };
 		D8E6235129CBA08C0072A861 /* ChatGPTCommentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6235029CBA08C0072A861 /* ChatGPTCommentRepository.swift */; };
 		D8E6235429CBA1120072A861 /* CommentUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6235329CBA1120072A861 /* CommentUseCase.swift */; };
@@ -126,7 +126,6 @@
 		91E2685229B3AA2C0098BBB5 /* ChatGPTRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTRequest.swift; sourceTree = "<group>"; };
 		91E2685529B3AC820098BBB5 /* OpenAI+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OpenAI+Localizable.swift"; sourceTree = "<group>"; };
 		91E2685829B3ADDE0098BBB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		91E2685A29B3ADE30098BBB5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		91E2685B29B3B3C50098BBB5 /* ConverterError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterError.swift; sourceTree = "<group>"; };
 		91FAD36D29B4784800917E35 /* ExplainCodeCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainCodeCommand.swift; sourceTree = "<group>"; };
 		91FAD36F29B478A000917E35 /* ExplainCodeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainCodeUseCase.swift; sourceTree = "<group>"; };
@@ -149,7 +148,9 @@
 		91FFEE7B29B2838000B4DE2A /* OpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI.swift; sourceTree = "<group>"; };
 		91FFEE7E29B2854200B4DE2A /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		91FFEE8229B288F000B4DE2A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		D8E6234B29CB93690072A861 /* openai.environment */ = {isa = PBXFileReference; lastKnownFileType = text; path = openai.environment; sourceTree = "<group>"; };
+		B33CB43429EC039E0049A337 /* openai.environment */ = {isa = PBXFileReference; lastKnownFileType = text; path = openai.environment; sourceTree = "<group>"; };
+		B33CB43629EC07500049A337 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B33CB43929EC091B0049A337 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D8E6234E29CBA0530072A861 /* CommentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentRepository.swift; sourceTree = "<group>"; };
 		D8E6235029CBA08C0072A861 /* ChatGPTCommentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTCommentRepository.swift; sourceTree = "<group>"; };
 		D8E6235329CBA1120072A861 /* CommentUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentUseCase.swift; sourceTree = "<group>"; };
@@ -473,7 +474,7 @@
 		D8E6234D29CB9D1A0072A861 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				D8E6234B29CB93690072A861 /* openai.environment */,
+				B33CB43429EC039E0049A337 /* openai.environment */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -555,12 +556,13 @@
 			};
 			buildConfigurationList = 91FFEE4829B2822000B4DE2A /* Build configuration list for PBXProject "ChatGPT" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = "zh-Hans";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 				es,
+				"zh-Hans",
 			);
 			mainGroup = 91FFEE4429B2822000B4DE2A;
 			productRefGroup = 91FFEE4E29B2822000B4DE2A /* Products */;
@@ -587,7 +589,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E6234C29CB93690072A861 /* openai.environment in Resources */,
+				B33CB43529EC039E0049A337 /* openai.environment in Resources */,
 				91E2685729B3ADDE0098BBB5 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -669,7 +671,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				91E2685829B3ADDE0098BBB5 /* en */,
-				91E2685A29B3ADE30098BBB5 /* es */,
+				B33CB43629EC07500049A337 /* es */,
+				B33CB43929EC091B0049A337 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -802,7 +805,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatGPT/Preview Content\"";
-				DEVELOPMENT_TEAM = P8RCF8HS85;
+				DEVELOPMENT_TEAM = 2C4H9T5RF5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -831,7 +834,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatGPT/Preview Content\"";
-				DEVELOPMENT_TEAM = P8RCF8HS85;
+				DEVELOPMENT_TEAM = 2C4H9T5RF5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -856,7 +859,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P8RCF8HS85;
+				DEVELOPMENT_TEAM = 2C4H9T5RF5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatGPTExtension/Info.plist;
@@ -884,7 +887,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P8RCF8HS85;
+				DEVELOPMENT_TEAM = 2C4H9T5RF5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatGPTExtension/Info.plist;

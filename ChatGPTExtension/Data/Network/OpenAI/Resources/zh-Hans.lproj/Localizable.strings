@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  ChatGPT
+
+  Created by Adolfo Vera Blasco on 4/3/23.
+  
+*/
+"PROMPT_JSON" = "将这个 JSON 转换为 Swift Codable 数据结构，只能使用 struct 声明。";
+"PROMPT_CODE_SMELLS" = "把这段 Swift 代码检查一下 Code Smells";
+"PROMPT_EXPLAIN_CODE" = "解释一下这段swift的代码的作用?";
+"PROMPT_GENERATE_UNIT_TEST" = "使用 XCTest 框架编写这段代码的 Swift 测试用例。";
+"PROMPT_REGEX" = "使用正则表达式（Regex）生成一个匹配的规则。";
+"PROMPT_COMMENT" = "为这个函数生成 Swift 格式的注释，包含参数和返回类型说明，每行最大长度不超过 80 个字符。";
+
